@@ -32,7 +32,7 @@ def download_raw_data():
     if not copied:
         raise RuntimeError("No files copied from kagglehub cache. Check dataset contents/path.")
 
-    print("✅ Copied to data/raw/:")
+    print("Copied to data/raw/:")
     for name in copied:
         print("  -", name)
 
